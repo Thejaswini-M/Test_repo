@@ -2,7 +2,7 @@ FROM UBUNTU:latest
 #
 WORKDIR /app
 
-COPY ./app
+COPY  . /app
 
 Run apt-get update && apt-get install python3 python3-pip
 
