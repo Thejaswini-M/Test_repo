@@ -1,4 +1,4 @@
-ROM UBUNTU:latest
+FROM UBUNTU:latest
 #
 WORKDIR /app
 
