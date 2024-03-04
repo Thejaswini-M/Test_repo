@@ -4,7 +4,7 @@ WORKDIR /app
 
 COPY  . /app
 
-Run apt-get update && apt-get install python3 python3-pip
+Run apt-get update && apt-get install python3 
 
 ENV NAME World
 
