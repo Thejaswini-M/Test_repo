@@ -3,10 +3,10 @@ os: linux
 
 hooks:
   ApplicationStop:
-    - location: Test_app/stop_container.sh
+    - location: Test_repo/Test_app/stop_container.sh
       timeout: 300
       runas: root
   AfterInstall:
-    - location: Test_app/start_container.sh
+    - location: Test_repo/Test_app/start_container.sh
       timeout: 300
       runas: root
