@@ -1,6 +1,6 @@
 # Base image
 FROM python:3.8
-#just chage
+#just
 
 # Set the working directory inside the container
 WORKDIR /app
