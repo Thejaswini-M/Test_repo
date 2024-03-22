@@ -1,5 +1,6 @@
 set -e
 echo
 ## to stop any container running on port
-containerid=docker ps |awk-F ""'{print $1}'
+#!/bin/bash
+containerid='docker ps|awk-F ""'{Print$1}''
 docker rm -f $containerid
