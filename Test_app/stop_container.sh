@@ -1,3 +1,3 @@
 set -e
-echo
+echo 'started'
 
