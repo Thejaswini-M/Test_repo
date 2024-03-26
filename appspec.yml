@@ -10,3 +10,4 @@ hooks:
     - location: Test_app/start_container.sh
       timeout: 300
       runas: root
+      
