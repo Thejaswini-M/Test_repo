@@ -5,6 +5,6 @@ set -e
 echo "Hi"
 echo "Hello"
 #!/bin/bash
-containerid=$(docker ps|awk -F " " 'N>1{print$1}')
+containerid=$(docker ps -q)
 echo $containerid
 docker rm -f $containerid
