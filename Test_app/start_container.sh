@@ -3,4 +3,4 @@ set -e
 docker pull thejaswinim/test_flask_app
 
 ## run the docker image
-docker run -d -p 5000:5000 thejaswinim/test_flask_app
+docker run -d -p 5000:3000 thejaswinim/test_flask_app
