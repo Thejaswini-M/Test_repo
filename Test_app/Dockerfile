@@ -1,8 +1,8 @@
 # Base image
-run echo "Build started"
+
 FROM python:3.10
 
-
+RUN echo "Build started"
 # Set the working directory inside the container
 WORKDIR /app
 
