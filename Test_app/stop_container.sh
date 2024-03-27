@@ -2,7 +2,7 @@
 #!/bin/bash
 set -e
 # Stop the running container (if any)
-chmod +x
+chmod +x stop_container.sh
 echo "Hi"
 echo "Hello"
 containerid=$(docker ps -q)
