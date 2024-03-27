@@ -1,4 +1,5 @@
 # Base image
+run echo "Build started"
 FROM python:3.10
 
 
